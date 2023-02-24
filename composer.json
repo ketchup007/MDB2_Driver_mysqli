@@ -1,0 +1,26 @@
+{
+	"name": "ketchup/mdb2_driver_mysqli",
+	"description": "This is the Mysqli MDB2 driver.",
+	"type": "library",
+	"keywords": [ "database", "mdb2", "pear", "mysqli" ],
+	"homepage": "https://github.com/nanasess/MDB2_Driver_mysqli",
+	"license": "BSD-2-Clause",
+	"authors": [
+		{
+			"name": "Lukasz Lecki",
+			"email": "lukasz.lecki@gmail.com"
+		}
+	],
+	"replace": {
+	},
+	"require": {
+		"php": ">=5.3.0",
+		"ketchup/mdb2": "*"
+	},
+	"autoload": {
+		"classmap": [ "MDB2/Driver/mysqli.php" ]
+	},
+	"include-path": [
+		"./"
+	]
+}
